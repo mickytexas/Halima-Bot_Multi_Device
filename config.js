@@ -3,11 +3,11 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['254798708444', 'Abdul ❤️🫶', true], 
+  ['2347018087851', 'Dennis ❤️🫶', true], 
 ]
 
-global.mods = ['254798708444'] 
-global.prems = ['254798708444']
+global.mods = ['2347018087851'] 
+global.prems = ['2347018087851']
 global.APIs = { 
   xteam: 'https://api.xteam.xyz', 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -17,16 +17,16 @@ global.APIs = {
 global.APIKeys = {
   'https://api.xteam.xyz': 'd90a9e986e18778b',
   'https://zenzapis.xyz': '675e34de8a', 
-  'https://api-fgmods.ddns.net': '𝐀𝐛𝐝𝐮𝐥𝐫𝐚𝐡𝐦𝐚𝐧'
+  'https://api-fgmods.ddns.net': 'Dennis'
 }
 
-global.packname = 'Halimaᴮᴼᵀ' 
-global.author = '𝐇𝐚𝐥𝐢𝐦𝐚' 
-global.fgig = '▢ Follow me on Instagram\nhttps://www.instagram.com/noo.i.e\n' 
-global.dygp = 'https://chat.whatsapp.com/IfcVaQFsS8UCTkSEugeSt2'
-global.fgsc = 'https://github.com/x-poison' 
-global.fgyt = 'https://youtube.com/@poisonmods'
-global.fglog = 'https://i.imgur.com/EJgRBnS.jpg' 
+global.packname = 'Dennisᴮᴼᵀ' 
+global.author = 'Dennis' 
+global.fgig = 
+global.dygp = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc'
+global.fgsc = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc' 
+global.fgyt = 
+global.fglog = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc' 
 
 global.wait = '*⌛ _loading..._*\n*▰▰▰▰▰▰▱▱*'
 global.rwait = '⌛'
