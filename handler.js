@@ -83,7 +83,7 @@ export async function handler(chatUpdate) {
                 if (!isNumber(user.lastclaim))
                     user.lastclaim = 0
                 if (!('registered' in user))
-                    user.registered = false
+                    user.registered = true
                     //-- user registered 
                 if (!user.registered) {
                     if (!('name' in user))
@@ -107,7 +107,7 @@ export async function handler(chatUpdate) {
                 if (!('role' in user))
                     user.role = 'Novice'
                 if (!('autolevelup' in user))
-                    user.autolevelup = false
+                    user.autolevelup = true
                 if (!('chatbot' in user))
                     user.chatbot = false
             } else
@@ -115,7 +115,7 @@ export async function handler(chatUpdate) {
                     exp: 0,
                     diamond: 10,
                     lastclaim: 0,
-                    registered: false,
+                    registered: true,
                     name: m.name,
                     age: -1,
                     regTime: -1,
@@ -125,7 +125,7 @@ export async function handler(chatUpdate) {
                     warn: 0,
                     level: 0,
                     role: 'Novice',
-                    autolevelup: false,
+                    autolevelup: true,
                     chatbot: false,
                 }
             let chat = global.db.data.chats[m.chat]
@@ -135,9 +135,9 @@ export async function handler(chatUpdate) {
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('welcome' in chat))
-                    chat.welcome = false
+                    chat.welcome = true
                 if (!('detect' in chat))
-                    chat.detect = false
+                    chat.detect = true
                 if (!('sWelcome' in chat))
                     chat.sWelcome = ''
                 if (!('sBye' in chat))
@@ -149,7 +149,7 @@ export async function handler(chatUpdate) {
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = false
+                    chat.antiLink = true
                 if (!('viewonce' in chat))
                     chat.viewonce = false
                 if (!('onlyLatinos' in chat))
@@ -161,14 +161,14 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
-                    detect: false,
+                    welcome: true,
+                    detect: true,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     viewonce: false,
                     useDocument: true,
                     onlyLatinos: false,
@@ -178,7 +178,7 @@ export async function handler(chatUpdate) {
             let settings = global.db.data.settings[this.user.jid]
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
             if (settings) {
-                if (!('self' in settings)) settings.self = false
+                if (!('self' in settings)) settings.self = true
                 if (!('autoread' in settings)) settings.autoread = false
                 if (!('restrict' in settings)) settings.restrict = false
                 if (!('status' in settings)) settings.status = 0
