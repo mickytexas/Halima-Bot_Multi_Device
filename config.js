@@ -3,11 +3,11 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['2347018087851', 'Dennis ❤️🫶', true], 
+  ['2349093924119', 'Razhfad❤️🫶', true], 
 ]
 
-global.mods = ['2347018087851'] 
-global.prems = ['2347018087851']
+global.mods = ['2349093924119'] 
+global.prems = ['2349093924119']
 global.APIs = { 
   xteam: 'https://api.xteam.xyz', 
   nrtm: 'https://fg-nrtm.ddns.net',
@@ -20,13 +20,13 @@ global.APIKeys = {
   'https://api-fgmods.ddns.net': 'Dennis'
 }
 
-global.packname = 'Dennisᴮᴼᵀ' 
-global.author = 'Dennis' 
+global.packname = 'Pig Benis' 
+global.author = 'Razhfad' 
 global.fgig = 
-global.dygp = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc'
-global.fgsc = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc' 
+global.dygp = 'https://wa.me/2349093924119'
+global.fgsc = 'https://wa.me/2349093924119' 
 global.fgyt = 
-global.fglog = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc' 
+global.fglog = 'https://wa.me/2349093924119' 
 
 global.wait = '*⌛ _loading..._*\n*▰▰▰▰▰▰▱▱*'
 global.rwait = '⌛'
