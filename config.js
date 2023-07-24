@@ -23,10 +23,10 @@ global.APIKeys = {
 global.packname = 'Dennisᴮᴼᵀ' 
 global.author = 'Dennis' 
 global.fgig = 
-global.dygp = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc'
-global.fgsc = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc' 
+global.dygp = 'https://chat.whatsapp.com/IufF8qqWt0RFNfDbto5J5G'
+global.fgsc = 'https://chat.whatsapp.com/IufF8qqWt0RFNfDbto5J5G' 
 global.fgyt = 
-global.fglog = 'https://chat.whatsapp.com/JJIry5Jw3FOL9v1DEe7efc' 
+global.fglog = 'https://chat.whatsapp.com/IufF8qqWt0RFNfDbto5J5G' 
 
 global.wait = '*⌛ _loading..._*\n*▰▰▰▰▰▰▱▱*'
 global.rwait = '⌛'
